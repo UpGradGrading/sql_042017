@@ -1,0 +1,74 @@
+
+
+
+Description : 
+	1. as the saying goes, "one can always find fewer words to express"
+	2. database description was just "Above and Beyond" as well "short and sweet"
+	3. databset description was just a complete Platter and you just visited each and every aspect of it.
+	4. Good work!!!. That was a detailed explanation just possible.
+	5. Outstanding
+	6. Expert Editorial.
+	7. Expertly Describled.
+	8. Absolutely Positively The Best.
+
+        can you think of any ambiguous column names across tables ..??       
+ 
+  Suggestions:	
+	the fields in each table and the data types of important fields must be mentioned. 
+	The ambiguous fields or fields with simillar names should be clearly described
+
+
+Primary & Foreigh Keys : 
+	1. cust_dimen :
+		a. primary key  :   cust_id,
+		b. Foreign keys :   customer_segment
+	2. market_fact : 
+		a. primary key :   Nill
+		b. Foreign Kyes :  ord_id, ship_id, prod_id
+	3. ordes_dimen : 
+		a. primary key : ord_id
+		b. Foreigh Keys : order_id
+	4. prod_dimen : 
+		a. primary key : prod_id
+		b. Foreign keys :  Nill
+	5. ship_dimen : 
+		a. primary key : ship_id
+		b. Foreign keys : order_id
+
+    +ve Review : 
+	1. Awesome!!!... you fed me exactly what I'm looking for.
+	2. Good work!!!... 
+	3. Flawless
+	4. I would rate it as "A Home Run"
+	5. Accurate Findings.
+    
+    Food for thoughts :
+	a. do you think of dimension table with out primary key.
+
+
+Comments : 
+	1. Comments were just perfect, "short and sweet"
+	2. 
+
+Code Written Conciesely :
+	a. Fantastic approach.
+	b. Super cool/Extremely Cool.
+	c. wonderful piece of code.
+	d. Impressive piece of code.
+	e. Extremely Satisfied.
+
+
+Code Readability : 
+   Review : 
+	1. Good work, keep it up, that was "One Hundred percent Statisfactory"
+	2. Awesome, keep up the good work!!!. I could see the effort behind code beautification.
+	3. Last but not least, code format is the "Icing on the Cake", incredibly beautiful.	
+	4. wonderfully written, that was 
+	5. beyond my wildest dreams.
+	6. Elegent.
+	7. Amazing.
+	8. Superb.
+
+   Suggestions : 
+	In mysql workbench, you can try using ctrl+B & ctrl+/ for code beautification and commenting.
+	Inserting 3/4 empty lines between each SQL query would would make code reading a "feast for eyes"

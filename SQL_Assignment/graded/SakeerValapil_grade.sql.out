@@ -1,0 +1,390 @@
+Database changed
++--------------------+--------------------+
+| SUM(sales)         | AVG(sales)         |
++--------------------+--------------------+
+| 14647187.904000023 | 1757.1002763915576 |
++--------------------+--------------------+
+1 row in set (0.00 sec)
+
++-----------------------+-----------+
+| Region                | custcount |
++-----------------------+-----------+
+| WEST                  |       382 |
+| ATLANTIC              |       344 |
+| ONTARIO               |       337 |
+| PRARIE                |       313 |
+| QUEBEC                |       210 |
+| YUKON                 |       130 |
+| NORTHWEST TERRITORIES |        76 |
+| NUNAVUT               |        40 |
++-----------------------+-----------+
+8 rows in set (0.03 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select prod_id , sum(order_quantity) no_of_tables purchased  as no_of_products_s' at line 8
++----------------------+---------------------+
+| Customer_Name        | SUM(Order_quantity) |
++----------------------+---------------------+
+| SANDRA FLANAGAN      |                  43 |
+| HERBERT FLENTYE      |                   7 |
+| SANDRA FLANAGAN      |                   4 |
+| LIZ WILLINGHAM       |                  48 |
+| JOHN LUCAS           |                  77 |
+| BILL OVERFELT        |                  48 |
+| ROBERT MARLEY        |                  40 |
+| JAY KIMMEL           |                  33 |
+| KAREN DANIELS        |                  36 |
+| KATHERINE NOCKTON    |                  16 |
+| DENNY BLANTON        |                  25 |
+| VIVEK GRADY          |                  15 |
+| STEPHANIE ULPRIGHT   |                  22 |
+| ODELLA NELSON        |                  33 |
+| SALLY HUGHSBY        |                  18 |
+| ARTHUR PRICHEP       |                  37 |
+| ALEJANDRO GROVE      |                  19 |
+| LAURA ARMSTRONG      |                  22 |
+| KEN BRENNAN          |                  21 |
+| MAX JONES            |                  13 |
+| JOE KAMBEROVA        |                  25 |
+| DON WEISS            |                   3 |
+| JIM SINK             |                  45 |
+| STEVEN ROELLE        |                  33 |
+| HALLIE REDMOND       |                   3 |
+| KATRINA WILLMAN      |                  13 |
+| BENJAMIN PATTERSON   |                  21 |
+| MARK COUSINS         |                  48 |
+| GENE MCCLURE         |                  20 |
+| DENNY JOY            |                  16 |
+| HALLIE REDMOND       |                  19 |
+| AMY COX              |                   6 |
+| KRISTEN HASTINGS     |                  14 |
+| DAVE POIRIER         |                   8 |
+| ELENI MCCRARY        |                   9 |
+| ERIC BARRETO         |                   3 |
+| NEOLA SCHNEIDER      |                  11 |
+| GRANT DONATELLI      |                  46 |
+| DAVE BROOKS          |                  40 |
+| IONIA MCGRATH        |                  24 |
+| PATRICK JONES        |                  44 |
+| NONA BALK            |                  12 |
+| ERIN MULL            |                  12 |
+| KEITH DAWKINS        |                   4 |
+| STEFANIE HOLLOMAN    |                  24 |
+| MARC CRIER           |                  47 |
+| JOHN LEE             |                  29 |
+| ED BRAXTON           |                  34 |
+| PENELOPE SEWALL      |                  26 |
+| SEAN BRAXTON         |                  12 |
+| MICHAEL MOORE        |                   5 |
+| TRACY ZIC            |                  10 |
+| JACK GARZA           |                  47 |
+| ROY SKARIA           |                  46 |
+| SYLVIA FOULSTON      |                  11 |
+| JILL STEVENSON       |                  41 |
+| MEG TILLMAN          |                  46 |
+| SYLVIA FOULSTON      |                  42 |
+| MIKE GOCKENBACH      |                  48 |
+| HENIA ZYDLO          |                  43 |
+| TRACY COLLINS        |                   3 |
+| MICK CREBAGGA        |                  12 |
+| RICK BENSLEY         |                  27 |
+| JULIE KRIZ           |                  13 |
+| RUSSELL APPLEGATE    |                  39 |
+| PETER FULLER         |                  47 |
+| RICK HANSEN          |                   7 |
+| KEAN TAKAHITO        |                  45 |
+| NICK ZANDUSKY        |                  47 |
+| PETER FULLER         |                   6 |
+| MAX LUDWIG           |                  37 |
+| MICHELLE MORAY       |                  26 |
+| MARIBETH YEDWAB      |                  47 |
+| NEIL FRENCH          |                  45 |
+| SUZANNE MCNAIR       |                  37 |
+| SUSAN PISTEK         |                  10 |
+| JACK O'BRIANT        |                  15 |
+| JUSTIN ELLISON       |                   7 |
+| JENNIFER JACKSON     |                  17 |
+| MICHAEL OAKMAN       |                  31 |
+| JACK O'BRIANT        |                   6 |
+| JONATHAN DOHERTY     |                  35 |
+| JANET LEE            |                  36 |
+| NEIL KNUDSON         |                  12 |
+| DENNIS PARDUE        |                  36 |
+| BILL EPLETT          |                  43 |
+| JEREMY LONSDALE      |                  19 |
+| LUKE SCHMIDT         |                  14 |
+| KELLY ANDREADA       |                  30 |
+| HAROLD DAHLEN        |                  25 |
+| JACK LEBRON          |                  23 |
+| ARIANNE IRVING       |                  10 |
+| RANDY FERGUSON       |                  66 |
+| CRAIG MOLINARI       |                  44 |
+| MUHAMMED YEDWAB      |                  30 |
+| JAMES GALANG         |                   8 |
+| CHRISTINA DEMOSS     |                  21 |
+| ANEMONE RATNER       |                   8 |
+| ALEKSANDRA GANNAWAY  |                  49 |
+| CINDY CHAPMAN        |                  42 |
+| BRUCE DEGENHARDT     |                  49 |
+| DIANNA VITTORINI     |                  19 |
+| CINDY STEWART        |                  11 |
+| ED BRAXTON           |                  34 |
+| QUINCY JONES         |                  30 |
+| BENJAMIN PATTERSON   |                  16 |
+| ASHLEY JARBOE        |                  17 |
+| BRAD THOMAS          |                  60 |
+| DAVID KENDRICK       |                  20 |
+| LUKE FOSTER          |                  44 |
+| MAUREEN GASTINEAU    |                  48 |
+| KEAN THORNTON        |                  38 |
+| JOY SMITH            |                  36 |
+| ADAM HART            |                  12 |
+| CHRISTY BRITTAIN     |                  43 |
+| BRYAN SPRUELL        |                  33 |
+| KARL BROWN           |                  12 |
+| TAMARA WILLINGHAM    |                  23 |
+| GIULIETTA DORTCH     |                  24 |
+| GIULIETTA DORTCH     |                  21 |
+| PETER BUHLER         |                  35 |
+| DEAN KATZ            |                   6 |
+| GIULIETTA DORTCH     |                  15 |
+| GREG GUTHRIE         |                  38 |
+| CYNTHIA VOLTZ        |                  21 |
+| JULIA BARNETT        |                  45 |
+| FRANK ATKINSON       |                  43 |
+| DARREN BUDD          |                   6 |
+| CARLOS SOLTERO       |                  46 |
+| IVAN LISTON          |                   8 |
+| MICK BROWN           |                  25 |
+| BENJAMIN VENIER      |                  45 |
+| ERICA BERN           |                  45 |
+| SPEROS GORANITIS     |                  13 |
+| COREY LOCK           |                  79 |
+| NICOLE BRENNAN       |                   8 |
+| JULIANA KROHN        |                  16 |
+| TOM PRESCOTT         |                  12 |
+| JENNIFER PATT        |                  24 |
+| NORA PAIGE           |                   7 |
+| ALEJANDRO SAVELY     |                  19 |
+| CHARLES CRESTANI     |                  45 |
+| GUY ARMSTRONG        |                  10 |
+| DAN CAMPBELL         |                  49 |
+| TAMARA WILLINGHAM    |                  68 |
+| PAUL VAN HUGH        |                  43 |
+| GREG GUTHRIE         |                   2 |
+| DEAN KATZ            |                  20 |
+| ART FOSTER           |                  10 |
+| CAROL DARLEY         |                  44 |
+| GREG GUTHRIE         |                  47 |
+| ANTHONY RAWLES       |                  43 |
+| DUANE NOONAN         |                  47 |
+| TAMARA MANNING       |                  19 |
+| SHAUN CHANCE         |                  25 |
+| PAULINE WEBBER       |                  49 |
+| KEN DANA             |                  26 |
+| CHUCK CLARK          |                  26 |
+| KATHARINE HARMS      |                  48 |
+| LAUREN LEATHERBURY   |                  14 |
+| SONIA COOLEY         |                  81 |
+| BECKY PAK            |                   3 |
+| BROOKE GILLINGHAM    |                  56 |
+| TOM BOECKENHAUER     |                   9 |
+| ALEX RUSSELL         |                   3 |
+| ALEJANDRO BALLENTINE |                  35 |
+| ALYSSA CROUSE        |                  24 |
+| CARI SAYRE           |                  30 |
+| HAROLD ENGLE         |                  42 |
+| BRUCE MONEY          |                   4 |
+| ANN STEELE           |                  12 |
+| HAROLD PAWLAN        |                  47 |
+| FRANK GASTINEAU      |                  22 |
+| LIZ PELLETIER        |                  24 |
+| RAYMOND BOOK         |                  16 |
+| TONJA TURNELL        |                  41 |
+| JIM KARLSSON         |                  35 |
+| ANDREW ROBERTS       |                  27 |
+| CHRISTINE ABELMAN    |                  39 |
+| ERICA SMITH          |                  23 |
+| FRANK HAWLEY         |                  48 |
+| JESSICA MYRICK       |                  48 |
+| SANJIT CHAND         |                   5 |
+| JUSTIN KNIGHT        |                   1 |
+| SALLY KNUTSON        |                  24 |
+| MICHELLE ARNETT      |                   9 |
+| SALLY KNUTSON        |                  49 |
+| ANNA ANDREADI        |                  16 |
+| SONIA SUNLEY         |                  24 |
+| LISA DECHERNEY       |                  66 |
+| SHAHID SHARIARI      |                  39 |
+| CHRISTOPHER MARTINEZ |                  42 |
+| RALPH KENNEDY        |                   4 |
+| KHLOE MILLER         |                  45 |
+| VICKY FREYMANN       |                  30 |
+| MARK COUSINS         |                   7 |
+| SALLY KNUTSON        |                  45 |
+| SALLY KNUTSON        |                  36 |
+| CHUCK CLARK          |                  46 |
+| TANJA NORVELL        |                   4 |
+| CATHY ARMSTRONG      |                  37 |
+| SALLY MATTHIAS       |                   8 |
+| NATHAN CANO          |                   3 |
+| MATT ABELMAN         |                  25 |
+| JACK O'BRIANT        |                  24 |
+| IVAN LISTON          |                   9 |
+| MATT ABELMAN         |                  44 |
+| THEONE PIPPENGER     |                  49 |
+| BRAD NORVELL         |                   6 |
+| ART FERGUSON         |                  36 |
+| JULIA DUNBAR         |                  13 |
+| CHRISTINE SUNDARESAM |                  37 |
+| ROBERT WALDORF       |                  12 |
+| LYCORIS SAUNDERS     |                  45 |
+| JULIE PRESCOTT       |                  17 |
+| ADAM BELLAVANCE      |                   3 |
+| CARI SAYRE           |                  15 |
+| LISA DECHERNEY       |                  23 |
+| SANDRA GLASSCO       |                  32 |
+| RITSA HIGHTOWER      |                  18 |
+| JONI BLUMSTEIN       |                   2 |
+| JAS O'CARROLL        |                  42 |
+| PHILIP BROWN         |                  29 |
+| ERIN CREIGHTON       |                  11 |
+| DOUG BICKFORD        |                  29 |
+| ANTHONY WITT         |                  32 |
+| JAMIE KUNITZ         |                  26 |
+| EILEEN KIEFER        |                  29 |
+| DARREN BUDD          |                  81 |
+| DARREN BUDD          |                  36 |
+| EUGENE HILDEBRAND    |                  49 |
+| IVAN LISTON          |                  49 |
+| CYNTHIA ARNTZEN      |                  19 |
+| DAVE HALLSTEN        |                  14 |
+| BRENDAN DODSON       |                   6 |
+| CARI MACINTYRE       |                  49 |
+| EDWARD HOOKS         |                  20 |
+| LENA CREIGHTON       |                  42 |
+| LENA RADFORD         |                  50 |
+| SEAN MILLER          |                  40 |
+| SCOT CORAM           |                  45 |
+| HUNTER GLANTZ        |                  36 |
+| PATRICK O'DONNELL    |                  24 |
+| VICTORIA WILSON      |                  26 |
+| BOBBY TRAFTON        |                  50 |
+| MUHAMMED YEDWAB      |                  29 |
+| GEORGE ZREBASSA      |                  20 |
+| BETH THOMPSON        |                  48 |
+| DOROTHY BADDERS      |                  22 |
+| BARRY FRANZ          |                   7 |
+| RICK DUSTON          |                  48 |
+| DAVID FLASHING       |                  40 |
+| CHUCK SACHS          |                  39 |
+| CARLOS MEADOR        |                   6 |
+| CHRISTY BRITTAIN     |                  35 |
+| ELENI MCCRARY        |                  49 |
+| NICOLE HANSEN        |                   8 |
+| BRADLEY TALBOTT      |                  29 |
+| CRAIG YEDWAB         |                  20 |
+| BEN PETERMAN         |                  23 |
+| DENISE LEINENBACH    |                  30 |
+| DEBRA CATINI         |                   4 |
+| BECKY MARTIN         |                  18 |
+| NORA PAIGE           |                  20 |
+| JENNIFER PATT        |                  16 |
+| BRIAN STUGART        |                  10 |
+| MICHELLE TRAN        |                   4 |
+| DAVE HALLSTEN        |                  24 |
+| SANJIT JACOBS        |                  26 |
+| BARRY GONZALEZ       |                  46 |
+| VIVIAN MATHIS        |                  21 |
+| VIVIAN MATHIS        |                  41 |
+| JASON KLAMCZYNSKI    |                   2 |
+| MICHELLE TRAN        |                  41 |
+| HELEN WASSERMAN      |                  55 |
+| JASON KLAMCZYNSKI    |                  46 |
+| BRADLEY NGUYEN       |                  26 |
+| BARRY GONZALEZ       |                  37 |
+| SCOTT COHEN          |                  39 |
+| CYNTHIA DELANEY      |                  22 |
+| CARLOS MEADOR        |                  28 |
+| CARLOS MEADOR        |                  34 |
+| AARON HAWKINS        |                  15 |
+| DAVID FLASHING       |                  20 |
+| JONI WASSERMAN       |                  24 |
+| KARL BROWN           |                  35 |
+| BENJAMIN VENIER      |                  22 |
+| BRENDAN MURRY        |                  15 |
+| KATRINA WILLMAN      |                  40 |
+| DEANRA ENO           |                  15 |
+| KEITH HERRERA        |                  45 |
+| BRIAN STUGART        |                  47 |
+| ALAN HAINES          |                  42 |
+| SHERI GORDON         |                  50 |
+| BEN WALLACE          |                  39 |
+| PHILLIP FLATHMANN    |                  47 |
+| BRENDA BOWMAN        |                  43 |
+| ALAN HAINES          |                  31 |
+| KATHERINE NOCKTON    |                  26 |
+| CLAY LUDTKE          |                   8 |
+| MITCH WEBBER         |                  32 |
+| SHIRLEY SCHMIDT      |                  47 |
+| JENNIFER FERGUSON    |                  24 |
+| ANNE PRYOR           |                  56 |
+| KAREN FERGUSON       |                   8 |
+| DIONIS LLOYD         |                  23 |
+| CAROL TRIGGS         |                  38 |
+| THERESA SWINT        |                  17 |
+| ANNE PRYOR           |                  42 |
+| BRENDA BOWMAN        |                   7 |
+| TRACY PODDAR         |                  36 |
+| STUART CALHOUN       |                  26 |
+| ALEJANDRO GROVE      |                  24 |
+| SAM ZELDIN           |                  17 |
+| SALLY HUGHSBY        |                  14 |
++----------------------+---------------------+
+315 rows in set (0.01 sec)
+
++------------------+-------------------+
+| Product_category | profits           |
++------------------+-------------------+
+| TECHNOLOGY       | 886313.5199999976 |
+| OFFICE SUPPLIES  |  524956.770000001 |
+| FURNITURE        | 75968.72999999995 |
++------------------+-------------------+
+3 rows in set (0.29 sec)
+
++------------------+--------------------------------+---------------------+
+| Product_category | Product_sub_category           | profits             |
++------------------+--------------------------------+---------------------+
+| TECHNOLOGY       | TELEPHONES AND COMMUNICATION   |   316951.6200000003 |
+| TECHNOLOGY       | OFFICE MACHINES                |  307712.92999999993 |
+| OFFICE SUPPLIES  | BINDERS AND BINDER ACCESSORIES |  307413.38999999996 |
+| TECHNOLOGY       | COPIERS AND FAX                |  167361.48999999996 |
+| FURNITURE        | CHAIRS & CHAIRMATS             |   122738.0699999999 |
+| FURNITURE        | OFFICE FURNISHINGS             |           100427.93 |
+| OFFICE SUPPLIES  | APPLIANCES                     |   97158.05999999988 |
+| TECHNOLOGY       | COMPUTER PERIPHERALS           |   94287.48000000001 |
+| OFFICE SUPPLIES  | ENVELOPES                      |   48182.60000000004 |
+| OFFICE SUPPLIES  | PAPER                          |   45263.20000000003 |
+| OFFICE SUPPLIES  | LABELS                         |   13677.16999999999 |
+| OFFICE SUPPLIES  | STORAGE & ORGANIZATION         |  13599.489999999982 |
+| OFFICE SUPPLIES  | PENS & ART SUPPLIES            |   7564.780000000003 |
+| OFFICE SUPPLIES  | RUBBER BANDS                   |  -102.6700000000001 |
+| OFFICE SUPPLIES  | SCISSORS, RULERS AND TRIMMERS  |  -7799.250000000001 |
+| FURNITURE        | BOOKCASES                      |  -33729.09000000002 |
+| FURNITURE        | TABLES                         | -113468.18000000001 |
++------------------+--------------------------------+---------------------+
+17 rows in set (0.17 sec)
+
++-----------------------+-----------------+---------------------+
+| Region                | no_of_shipments | region_profit       |
++-----------------------+-----------------+---------------------+
+| YUKON                 |              34 |   3151.050000000001 |
+| NUNAVUT               |               1 |             -481.04 |
+| NORTHWEST TERRITORIES |              10 | -3213.1100000000006 |
+| PRARIE                |              65 |             -8760.3 |
+| ATLANTIC              |              44 |           -16559.73 |
+| WEST                  |              69 | -21699.789999999997 |
+| QUEBEC                |              47 |            -29957.2 |
+| ONTARIO               |              79 |           -35948.06 |
++-----------------------+-----------------+---------------------+
+8 rows in set (0.01 sec)
+

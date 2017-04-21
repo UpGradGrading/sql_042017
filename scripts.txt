@@ -1,0 +1,1 @@
+ls | awk '{print "tee "$0 ".out" "\n" "source "$0}' > runall.sql

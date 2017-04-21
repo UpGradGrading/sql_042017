@@ -1,0 +1,8 @@
+mysql> 
+mysql> 
+mysql> cd ..
+    -> ls
+    -> ^C
+mysql> ^C
+mysql> exit
+mysql> exit

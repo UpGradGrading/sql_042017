@@ -1,0 +1,6 @@
+SQL assignment: This is the problem statement 
+Dataset: Data required for the question
+Ideal solution: This is the ideal solution prepared by internal experts. It will help you in grading the sample submission
+Sample Submission and Sample graded submission: One graded student submission so that you get an idea on how to grade.
+2 ungraded student submissions by the name “Submission1” and “Submission2”: Grade these submissions, so that we can have a look at them and provide you corrective feedback if required. 
+Grader's Rubric: This file has the framework on which the sample submission has to be graded. Rename the file as firstname_lastname_SQL. You need to put your score and comments in this file and send it across. It contains two sheets, named “Submission1” and “Submission2”. Fill in the grades and comments for respective assignments in correct sheets.

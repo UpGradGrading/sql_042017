@@ -1,0 +1,168 @@
++--------------------+--------------------+
+| total_sale         | avg_sale           |
++--------------------+--------------------+
+| 14647187.904000023 | 1757.1002763915576 |
++--------------------+--------------------+
+1 row in set (0.02 sec)
+
++-----------------+-----------------------+
+| no_of_customers | Region                |
++-----------------+-----------------------+
+|             382 | WEST                  |
+|             344 | ATLANTIC              |
+|             337 | ONTARIO               |
+|             313 | PRARIE                |
+|             210 | QUEBEC                |
+|             130 | YUKON                 |
+|              76 | NORTHWEST TERRITORIES |
+|              40 | NUNAVUT               |
++-----------------+-----------------------+
+8 rows in set (0.03 sec)
+
++-----------------+--------+
+| no_of_customers | Region |
++-----------------+--------+
+|             382 | WEST   |
++-----------------+--------+
+1 row in set (0.03 sec)
+
++------------+----------------+
+| product_id | no_of_products |
++------------+----------------+
+| Prod_6     |           1225 |
+| Prod_3     |            915 |
+| Prod_4     |            883 |
+| Prod_5     |            788 |
+| Prod_8     |            758 |
+| Prod_13    |            633 |
+| Prod_1     |            525 |
+| Prod_2     |            434 |
+| Prod_15    |            360 |
+| Prod_11    |            349 |
+| Prod_17    |            337 |
+| Prod_12    |            288 |
+| Prod_9     |            246 |
+| Prod_10    |            185 |
+| Prod_7     |            179 |
+| Prod_16    |            144 |
+| Prod_14    |             87 |
++------------+----------------+
+17 rows in set (0.17 sec)
+
++---------------------+------------------------+
+| Customer_Name       | no_of_tables_purchased |
++---------------------+------------------------+
+| MUHAMMED YEDWAB     |                      2 |
+| PATRICK JONES       |                      2 |
+| ALEKSANDRA GANNAWAY |                      1 |
+| ANEMONE RATNER      |                      1 |
+| BARRY FRANZ         |                      1 |
+| BECKY MARTIN        |                      1 |
+| BEN PETERMAN        |                      1 |
+| BOBBY TRAFTON       |                      1 |
+| BRADLEY TALBOTT     |                      1 |
+| BRIAN STUGART       |                      1 |
+| CARLOS MEADOR       |                      1 |
+| CARLOS SOLTERO      |                      1 |
+| CATHY ARMSTRONG     |                      1 |
+| CHRISTINA DEMOSS    |                      1 |
+| CHRISTY BRITTAIN    |                      1 |
+| CHUCK CLARK         |                      1 |
+| CHUCK SACHS         |                      1 |
+| CRAIG YEDWAB        |                      1 |
+| DAVID FLASHING      |                      1 |
+| DEBRA CATINI        |                      1 |
+| DENISE LEINENBACH   |                      1 |
+| ELENI MCCRARY       |                      1 |
+| ERICA BERN          |                      1 |
+| ERIN MULL           |                      1 |
+| FRANK ATKINSON      |                      1 |
+| GEORGE ZREBASSA     |                      1 |
+| GREG GUTHRIE        |                      1 |
+| IONIA MCGRATH       |                      1 |
+| IVAN LISTON         |                      1 |
+| JACK LEBRON         |                      1 |
+| JACK O'BRIANT       |                      1 |
+| JAMES GALANG        |                      1 |
+| JENNIFER PATT       |                      1 |
+| JOY SMITH           |                      1 |
+| MATT ABELMAN        |                      1 |
+| NATHAN CANO         |                      1 |
+| NONA BALK           |                      1 |
+| NORA PAIGE          |                      1 |
+| RICK DUSTON         |                      1 |
+| SALLY MATTHIAS      |                      1 |
+| SYLVIA FOULSTON     |                      1 |
+| TANJA NORVELL       |                      1 |
++---------------------+------------------------+
+42 rows in set (0.61 sec)
+
++------------------+-------------------+
+| Product_Category | profits           |
++------------------+-------------------+
+| TECHNOLOGY       | 886313.5200000014 |
+| OFFICE SUPPLIES  | 524956.7699999997 |
+| FURNITURE        | 75968.73000000004 |
++------------------+-------------------+
+3 rows in set (0.34 sec)
+
++------------------+--------------------------------+---------+
+| Product_Category | Product_Sub_Category           | profits |
++------------------+--------------------------------+---------+
+| FURNITURE        | CHAIRS & CHAIRMATS             | 4089.27 |
+| OFFICE SUPPLIES  | APPLIANCES                     | 1675.98 |
+| TECHNOLOGY       | OFFICE MACHINES                | 1219.87 |
+| TECHNOLOGY       | TELEPHONES AND COMMUNICATION   |  1148.9 |
+| OFFICE SUPPLIES  | PAPER                          |  729.34 |
+| TECHNOLOGY       | COPIERS AND FAX                |   287.5 |
+| OFFICE SUPPLIES  | ENVELOPES                      |  193.12 |
+| OFFICE SUPPLIES  | PENS & ART SUPPLIES            |    4.56 |
+| OFFICE SUPPLIES  | BINDERS AND BINDER ACCESSORIES |    3.46 |
+| OFFICE SUPPLIES  | LABELS                         |    1.32 |
+| OFFICE SUPPLIES  | RUBBER BANDS                   |   -0.71 |
+| TECHNOLOGY       | COMPUTER PERIPHERALS           |  -27.13 |
+| OFFICE SUPPLIES  | SCISSORS, RULERS AND TRIMMERS  |  -30.51 |
+| FURNITURE        | OFFICE FURNISHINGS             | -103.48 |
+| FURNITURE        | BOOKCASES                      | -317.48 |
+| FURNITURE        | TABLES                         | -693.23 |
+| OFFICE SUPPLIES  | STORAGE & ORGANIZATION         | -929.68 |
++------------------+--------------------------------+---------+
+17 rows in set (0.06 sec)
+
++---------------------+--------------------------------+-----------------------+
+| profit              | Product_Sub_Category           | Region                |
++---------------------+--------------------------------+-----------------------+
+|          -113468.18 | TABLES                         | NUNAVUT               |
+|  -33729.08999999999 | BOOKCASES                      | NUNAVUT               |
+|            -7799.25 | SCISSORS, RULERS AND TRIMMERS  | NUNAVUT               |
+| -102.66999999999999 | RUBBER BANDS                   | NUNAVUT               |
+|   7564.780000000003 | PENS & ART SUPPLIES            | NUNAVUT               |
+|  13599.489999999989 | STORAGE & ORGANIZATION         | NUNAVUT               |
+|  13677.169999999995 | LABELS                         | NUNAVUT               |
+|   45263.20000000001 | PAPER                          | NUNAVUT               |
+|   48182.60000000002 | ENVELOPES                      | NUNAVUT               |
+|   94287.48000000003 | COMPUTER PERIPHERALS           | NUNAVUT               |
+|   97158.05999999985 | APPLIANCES                     | NUNAVUT               |
+|  100427.93000000012 | OFFICE FURNISHINGS             | NUNAVUT               |
+|  122738.06999999982 | CHAIRS & CHAIRMATS             | NUNAVUT               |
+|  167361.49000000002 | COPIERS AND FAX                | NUNAVUT               |
+|  307413.39000000013 | BINDERS AND BINDER ACCESSORIES | NUNAVUT               |
+|   307712.9299999999 | OFFICE MACHINES                | NORTHWEST TERRITORIES |
+|           316951.62 | TELEPHONES AND COMMUNICATION   | NUNAVUT               |
++---------------------+--------------------------------+-----------------------+
+17 rows in set (3.42 sec)
+
++-----------------------+-----------------+-----------------------+
+| Region                | no_of_shipments | profit_in_each_region |
++-----------------------+-----------------+-----------------------+
+| ATLANTIC              |              44 |   -16559.729999999996 |
+| NORTHWEST TERRITORIES |              10 |              -3213.11 |
+| NUNAVUT               |               1 |               -481.04 |
+| ONTARIO               |              79 |             -35948.06 |
+| PRARIE                |              65 |    -8760.299999999997 |
+| QUEBEC                |              47 |              -29957.2 |
+| WEST                  |              69 |             -21699.79 |
+| YUKON                 |              34 |    3151.0499999999993 |
++-----------------------+-----------------+-----------------------+
+8 rows in set (0.16 sec)
+

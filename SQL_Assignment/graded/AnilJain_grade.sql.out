@@ -1,0 +1,189 @@
+Database changed
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+ERROR 1068 (42000): Multiple primary key defined
+ERROR 1068 (42000): Multiple primary key defined
+ERROR 1068 (42000): Multiple primary key defined
+ERROR 1068 (42000): Multiple primary key defined
+Query OK, 8336 rows affected (0.44 sec)
+Records: 8336  Duplicates: 0  Warnings: 0
+
+Query OK, 8336 rows affected (0.39 sec)
+Records: 8336  Duplicates: 0  Warnings: 0
+
+Query OK, 8336 rows affected (0.39 sec)
+Records: 8336  Duplicates: 0  Warnings: 0
+
+Query OK, 8336 rows affected (0.42 sec)
+Records: 8336  Duplicates: 0  Warnings: 0
+
++-------------+-----------+
+| total_sales | avg_sales |
++-------------+-----------+
+| 14647187.90 |   1757.10 |
++-------------+-----------+
+1 row in set (0.01 sec)
+
++---------------+-----------------------+
+| num_customers | Region                |
++---------------+-----------------------+
+|           382 | WEST                  |
+|           344 | ATLANTIC              |
+|           337 | ONTARIO               |
+|           313 | PRARIE                |
+|           210 | QUEBEC                |
+|           130 | YUKON                 |
+|            76 | NORTHWEST TERRITORIES |
+|            40 | NUNAVUT               |
++---------------+-----------------------+
+8 rows in set (0.03 sec)
+
++-----------------+--------+
+| no_of_customers | Region |
++-----------------+--------+
+|             382 | WEST   |
++-----------------+--------+
+1 row in set (0.03 sec)
+
++---------+----------------+
+| Prod_id | no_of_products |
++---------+----------------+
+| Prod_6  |           1225 |
+| Prod_3  |            915 |
+| Prod_4  |            883 |
+| Prod_5  |            788 |
+| Prod_8  |            758 |
+| Prod_13 |            633 |
+| Prod_1  |            525 |
+| Prod_2  |            434 |
+| Prod_15 |            360 |
+| Prod_11 |            349 |
+| Prod_17 |            337 |
+| Prod_12 |            288 |
+| Prod_9  |            246 |
+| Prod_10 |            185 |
+| Prod_7  |            179 |
+| Prod_16 |            144 |
+| Prod_14 |             87 |
++---------+----------------+
+17 rows in set (0.01 sec)
+
++---------------------+--------------+
+| customer name       | no_of_tables |
++---------------------+--------------+
+| ALEKSANDRA GANNAWAY |            1 |
+| ANEMONE RATNER      |            1 |
+| BARRY FRANZ         |            1 |
+| BECKY MARTIN        |            1 |
+| BEN PETERMAN        |            1 |
+| BOBBY TRAFTON       |            1 |
+| BRADLEY TALBOTT     |            1 |
+| BRIAN STUGART       |            1 |
+| CARLOS MEADOR       |            1 |
+| CARLOS SOLTERO      |            1 |
+| CATHY ARMSTRONG     |            1 |
+| CHRISTINA DEMOSS    |            1 |
+| CHRISTY BRITTAIN    |            1 |
+| CHUCK CLARK         |            1 |
+| CHUCK SACHS         |            1 |
+| CRAIG YEDWAB        |            1 |
+| DAVID FLASHING      |            1 |
+| DEBRA CATINI        |            1 |
+| DENISE LEINENBACH   |            1 |
+| ELENI MCCRARY       |            1 |
+| ERICA BERN          |            1 |
+| ERIN MULL           |            1 |
+| FRANK ATKINSON      |            1 |
+| GEORGE ZREBASSA     |            1 |
+| GREG GUTHRIE        |            1 |
+| IONIA MCGRATH       |            1 |
+| IVAN LISTON         |            1 |
+| JACK LEBRON         |            1 |
+| JACK O'BRIANT       |            1 |
+| JAMES GALANG        |            1 |
+| JENNIFER PATT       |            1 |
+| JOY SMITH           |            1 |
+| MATT ABELMAN        |            1 |
+| MUHAMMED YEDWAB     |            2 |
+| NATHAN CANO         |            1 |
+| NONA BALK           |            1 |
+| NORA PAIGE          |            1 |
+| PATRICK JONES       |            2 |
+| RICK DUSTON         |            1 |
+| SALLY MATTHIAS      |            1 |
+| SYLVIA FOULSTON     |            1 |
+| TANJA NORVELL       |            1 |
++---------------------+--------------+
+42 rows in set (0.02 sec)
+
++------------------+-----------+
+| product_category | profits   |
++------------------+-----------+
+| TECHNOLOGY       | 886313.52 |
+| OFFICE SUPPLIES  | 524956.77 |
+| FURNITURE        |  75968.73 |
++------------------+-----------+
+3 rows in set (0.32 sec)
+
++------------------+--------------------------------+------------+
+| Product_category | Product_Sub_Category           | profits    |
++------------------+--------------------------------+------------+
+| FURNITURE        | BOOKCASES                      |  -33729.09 |
+| FURNITURE        | CHAIRS & CHAIRMATS             |  122738.07 |
+| FURNITURE        | OFFICE FURNISHINGS             |  100427.93 |
+| FURNITURE        | TABLES                         | -113468.18 |
+| OFFICE SUPPLIES  | APPLIANCES                     |   97158.06 |
+| OFFICE SUPPLIES  | BINDERS AND BINDER ACCESSORIES |  307413.39 |
+| OFFICE SUPPLIES  | ENVELOPES                      |   48182.60 |
+| OFFICE SUPPLIES  | LABELS                         |   13677.17 |
+| OFFICE SUPPLIES  | PAPER                          |   45263.20 |
+| OFFICE SUPPLIES  | PENS & ART SUPPLIES            |    7564.78 |
+| OFFICE SUPPLIES  | RUBBER BANDS                   |    -102.67 |
+| OFFICE SUPPLIES  | SCISSORS, RULERS AND TRIMMERS  |   -7799.25 |
+| OFFICE SUPPLIES  | STORAGE & ORGANIZATION         |   13599.49 |
+| TECHNOLOGY       | COMPUTER PERIPHERALS           |   94287.48 |
+| TECHNOLOGY       | COPIERS AND FAX                |  167361.49 |
+| TECHNOLOGY       | OFFICE MACHINES                |  307712.93 |
+| TECHNOLOGY       | TELEPHONES AND COMMUNICATION   |  316951.62 |
++------------------+--------------------------------+------------+
+17 rows in set (0.34 sec)
+
++-------------------+
+| prod_sub_category |
++-------------------+
+| TABLES            |
++-------------------+
+1 row in set (0.19 sec)
+
++-------------+-----------------+-----------------------+
+| region_name | no_of_shipments | profit_in_each_region |
++-------------+-----------------+-----------------------+
+| ONTARIO     |              79 |             -35948.06 |
++-------------+-----------------+-----------------------+
+1 row in set (0.03 sec)
+

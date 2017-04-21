@@ -1,0 +1,135 @@
+
+**** Data Understanding *****
+
+1. Good Work...!!!, All the tables has been described briefly along with their fields. 
+The way relationships  among the tables are exposed is Exceptional. 
+Ambiguous fields were Identified as well. 
+A brief mention of important field's data types would have made your description indisputable.
+
+Good Work!!!.   you presented a decent overview. you went over all important field's datatypes. 
+Last but not least, you highlighted ambiguous fields as well. 
+I'm happy to see you didn't let any details slip through the cracks.
+
+
+
+
+2. Awesome...!!! Primary Keys are identified for all dimension tables and Foreign keys from facts table.
+ Foreign key's  mapping to corresponding dimension tables is "Above and Beyond" expectations.
+
+Awesome, you identified all Primary and Foreign keys across the tables.
+
+
+
+
+
+**** Basic Queries ****
+
+
+ Satisfied, No issues with command execution. SQL query probes market_fact table for  total sales and 
+avg sales, which is inline with expectations.
+
+Good Work!!!  command executed succesfully
+
+
+
+No issues with command execution. regions were shown in descending order of their customers.
+
+Good Work!!! command executed successfully and results were shown in decreasing order
+
+
+
+Well done...!!!, Query executed successfully. Do you think of concise query ..?
+ Hint : task 2
+
+Good Work!!! command executed successfully, very well re-used the above command with proper options to list region with max customers.
+
+
+Good Work...!!!, command executed successfully. product ids were shown in descending order of  
+no.of  products sold.
+
+We were expecting to see total no of products sold, we can achieve this by Summing "order_quantity".  counting "order_quantity" will show  occurrences of  prod_id.
+
+
+
+You nailed it...!!! you poked right tables with appropriate fields to generate this summary. 
+Food for thought..!!! can you give it a a try with out inner joins
+
+your results are NOT matching with expected result,  an inner join on prod_dimen narrowed down the search, instead you can use mf.prod_id='tables prod id' and avoid inner join on prod_dimen
+
+
+
+you have done really well with basic SQL queries.
+
+you were pretty much there, need to review your logic while framing query. 
+please find attached expected output and results from your queries.
+
+
+
+
+
+**** Advanced Queries *****
+
+Good work...!!!, good to see you query prod_dimen and market_fact for desired results
+
+Good Work ...!!! command executed successfully and profits were shown in descending order.
+
+
+
+Good work...!!! appropriate tables were queried for sub_category level profits.
+
+Good Work...!!! command executed successfully, showing all the product sub-categories along with their profits.
+
+
+
+Impressive...!!! you did it with single query.  Results produce are just as expected.
+what's next...!!!, do you think you can give it a shot with out using inner joins
+
+Awesome..!!!  results produced with One Query.
+
+
+
+
+you came out of advanced sql query test with "flying colors". Impressive...!!!
+
+Very Impressive..!!! nice code formatting, easily readable. precise queries producing right results.
+
+
+
+
+**** Coding Guidelines : *****
+
+No comments were written, 
+Headers/Comments about what a query is trying to identify and logic behind query formation are like cherry 
+on the top of cake. Always a good practice to have  brief insights of results obtained 
+
+I haven't noticed much of commands describing concept behind formation of SQL Query. Also, it would  be nice to write insights from results achieved.   
+
+new variables names were appropriate and unambiguous, "one hundred percent satisfied"
+
+
+
+Good work...!!! New variables created has unambiguous names
+
+I could see the emphasis on code preciseness. Great work..!!!
+
+
+
+Satisfied, Its extremely important to be as precise as possible for complex analysis. Give it a try to reduce 
+inner joins as much as possible while querying where schema has more tables.
+
+Good Work!!! Advanced Analysis section was very well indented,  I could see you could apply similar indentation across all sections of the Code. 
+
+
+
+Could do better. Its always better to indent code for better redability. if you are using SQL workbench 
+you can use shortcuts like 'ctrl+b' for indentation and 'ctrl+/' for commenting. you can give it a
+ try and see the difference for your self
+
+Overall coding/documentation guidelines were very impressive. I'm very positive you can do "Fantastic" job on comments as well.
+Also you can think of  using some kind of demarcation for each SQL query, either by 3/4 blank lines, some form of visually recognizable patterns.
+~80 characters per column would make your script Exceptional.
+
+
+
+Indentation and Comments are distinguishing properties of good programming. simple metric would be how 
+fast one could understand what & how results were achieve if they were to review this piece of code in future.

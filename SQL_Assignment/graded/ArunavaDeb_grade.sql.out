@@ -1,0 +1,146 @@
++--------------------+--------------------+
+| Total Sale         | Average Sales      |
++--------------------+--------------------+
+| 14647187.904000023 | 1757.1002763915576 |
++--------------------+--------------------+
+1 row in set (0.01 sec)
+
++-----------------------+-----------------+
+| Region                | No of customers |
++-----------------------+-----------------+
+| WEST                  |             382 |
+| ATLANTIC              |             344 |
+| ONTARIO               |             337 |
+| PRARIE                |             313 |
+| QUEBEC                |             210 |
+| YUKON                 |             130 |
+| NORTHWEST TERRITORIES |              76 |
+| NUNAVUT               |              40 |
++-----------------------+-----------------+
+8 rows in set (0.02 sec)
+
++--------+-----------+
+| Region | Customers |
++--------+-----------+
+| WEST   |       382 |
++--------+-----------+
+1 row in set (0.03 sec)
+
++---------+---------------------+
+| Prod_id | No of products sold |
++---------+---------------------+
+| Prod_6  |               30871 |
+| Prod_3  |               22992 |
+| Prod_4  |               22969 |
+| Prod_5  |               20648 |
+| Prod_8  |               19222 |
+| Prod_13 |               16980 |
+| Prod_1  |               13343 |
+| Prod_2  |               10901 |
+| Prod_15 |                8903 |
+| Prod_11 |                8864 |
+| Prod_17 |                7856 |
+| Prod_12 |                7301 |
+| Prod_9  |                6578 |
+| Prod_7  |                4920 |
+| Prod_10 |                4777 |
+| Prod_16 |                3931 |
+| Prod_14 |                2128 |
++---------+---------------------+
+17 rows in set (0.01 sec)
+
++---------------------+------------------------+
+| Customer_Name       | No of tables Purchased |
++---------------------+------------------------+
+| ALEKSANDRA GANNAWAY |                     49 |
+| ANEMONE RATNER      |                      8 |
+| BARRY FRANZ         |                      7 |
+| BECKY MARTIN        |                     18 |
+| BEN PETERMAN        |                     23 |
+| BOBBY TRAFTON       |                     50 |
+| BRADLEY TALBOTT     |                     29 |
+| BRIAN STUGART       |                     10 |
+| CARLOS MEADOR       |                      6 |
+| CARLOS SOLTERO      |                     46 |
+| CATHY ARMSTRONG     |                     37 |
+| CHRISTINA DEMOSS    |                     21 |
+| CHRISTY BRITTAIN    |                     35 |
+| CHUCK CLARK         |                     46 |
+| CHUCK SACHS         |                     39 |
+| CRAIG YEDWAB        |                     20 |
+| DAVID FLASHING      |                     40 |
+| DEBRA CATINI        |                      4 |
+| DENISE LEINENBACH   |                     30 |
+| ELENI MCCRARY       |                     49 |
+| ERICA BERN          |                     45 |
+| ERIN MULL           |                     12 |
+| FRANK ATKINSON      |                     43 |
+| GEORGE ZREBASSA     |                     20 |
+| GREG GUTHRIE        |                     38 |
+| IONIA MCGRATH       |                     24 |
+| IVAN LISTON         |                      9 |
+| JACK LEBRON         |                     23 |
+| JACK O'BRIANT       |                     24 |
+| JAMES GALANG        |                      8 |
+| JENNIFER PATT       |                     16 |
+| JOY SMITH           |                     36 |
+| MATT ABELMAN        |                     25 |
+| MUHAMMED YEDWAB     |                     29 |
+| MUHAMMED YEDWAB     |                     30 |
+| NATHAN CANO         |                      3 |
+| NONA BALK           |                     12 |
+| NORA PAIGE          |                     20 |
+| PATRICK JONES       |                     44 |
+| RICK DUSTON         |                     48 |
+| SALLY MATTHIAS      |                      8 |
+| SYLVIA FOULSTON     |                     42 |
+| TANJA NORVELL       |                      4 |
++---------------------+------------------------+
+43 rows in set (0.02 sec)
+
++------------------+-------------------+
+| Product_category | Profit            |
++------------------+-------------------+
+| TECHNOLOGY       | 886313.5200000014 |
+| OFFICE SUPPLIES  | 524956.7699999997 |
+| FURNITURE        | 75968.73000000004 |
++------------------+-------------------+
+3 rows in set (0.31 sec)
+
++------------------+--------------------------------+---------------------+
+| Product_Category | Product_Sub_Category           | Profit              |
++------------------+--------------------------------+---------------------+
+| FURNITURE        | BOOKCASES                      |  -33729.09000000002 |
+| FURNITURE        | CHAIRS & CHAIRMATS             |   122738.0699999999 |
+| FURNITURE        | OFFICE FURNISHINGS             |           100427.93 |
+| FURNITURE        | TABLES                         | -113468.18000000001 |
+| OFFICE SUPPLIES  | APPLIANCES                     |   97158.05999999988 |
+| OFFICE SUPPLIES  | BINDERS AND BINDER ACCESSORIES |  307413.38999999996 |
+| OFFICE SUPPLIES  | ENVELOPES                      |   48182.60000000004 |
+| OFFICE SUPPLIES  | LABELS                         |   13677.16999999999 |
+| OFFICE SUPPLIES  | PAPER                          |   45263.20000000003 |
+| OFFICE SUPPLIES  | PENS & ART SUPPLIES            |   7564.780000000003 |
+| OFFICE SUPPLIES  | RUBBER BANDS                   |  -102.6700000000001 |
+| OFFICE SUPPLIES  | SCISSORS, RULERS AND TRIMMERS  |  -7799.250000000001 |
+| OFFICE SUPPLIES  | STORAGE & ORGANIZATION         |  13599.489999999982 |
+| TECHNOLOGY       | COMPUTER PERIPHERALS           |   94287.48000000001 |
+| TECHNOLOGY       | COPIERS AND FAX                |  167361.48999999996 |
+| TECHNOLOGY       | OFFICE MACHINES                |  307712.92999999993 |
+| TECHNOLOGY       | TELEPHONES AND COMMUNICATION   |   316951.6200000003 |
++------------------+--------------------------------+---------------------+
+17 rows in set (0.23 sec)
+
++-----------------------+-----------------+---------------------+----------------------+
+| Region                | No_of_Shipments | Profits             | Product_Sub_Category |
++-----------------------+-----------------+---------------------+----------------------+
+| YUKON                 |              34 |  3151.0499999999993 | TABLES               |
+| NUNAVUT               |               1 |             -481.04 | TABLES               |
+| NORTHWEST TERRITORIES |              10 |            -3213.11 | TABLES               |
+| PRARIE                |              65 |             -8760.3 | TABLES               |
+| ATLANTIC              |              44 | -16559.729999999996 | TABLES               |
+| WEST                  |              69 | -21699.789999999994 | TABLES               |
+| QUEBEC                |              47 |            -29957.2 | TABLES               |
+| ONTARIO               |              79 |           -35948.06 | TABLES               |
++-----------------------+-----------------+---------------------+----------------------+
+8 rows in set (0.05 sec)
+
